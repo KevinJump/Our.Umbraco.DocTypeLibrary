@@ -8,8 +8,8 @@ var gulp = require('gulp'),
     watch = require('gulp-watch');
 
 var sources = [
-    './Our.Umbraco.StyledEditors/App_Plugins'],
-    dest = './StyledEditors.Site/App_Plugins';
+    './Our.Umbraco.DocTypeLibrary/App_Plugins'],
+    dest = './DocTypeLibrary.Site/App_Plugins';
 
 gulp.task('monitor', function () {
 
